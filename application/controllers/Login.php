@@ -1,4 +1,5 @@
 <?php
+//controller file
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Login extends CI_Controller {
@@ -159,7 +160,6 @@ class Login extends CI_Controller {
 			print_r($cart_items);
 		
 		}
-		die;
 			//echo $product=$cart_items['name'];
 		//echo "<pre>"; print_r($_SESSION); exit;
 		/*$items_in_cart = ($this->session->userdata());
